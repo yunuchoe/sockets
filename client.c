@@ -36,7 +36,7 @@ int main() {
         perror("Connection failed");
         return -1;
     }
-    printf("Connected to chat server.\n");
+    printf("Connected to server.\n");
 
     // Step 4: Send data to the server
     send(sock, message, strlen(message), 0);
